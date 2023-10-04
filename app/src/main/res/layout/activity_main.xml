@@ -92,6 +92,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="390dp"/>
+
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -129,6 +130,16 @@
                 android:layout_marginTop="210dp"
                 android:layout_marginLeft="140dp"
                 android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/alarmcanclebtn"
+                android:text="Cancle Alarm"
+                android:backgroundTint="#008000"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="120dp"
+                />
 
         </com.google.android.material.card.MaterialCardView>
         </androidx.constraintlayout.widget.ConstraintLayout>

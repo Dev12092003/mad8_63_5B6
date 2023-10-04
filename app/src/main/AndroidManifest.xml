@@ -12,6 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mad8_63_5B6"
         tools:targetApi="31">
+
+        <reciver
+            android:name=".AlarmBroadcastReciver"
+            android:directBootAware="true"
+            android:enable="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </reciver>
         <activity
             android:name=".MainActivity"
             android:exported="true">
